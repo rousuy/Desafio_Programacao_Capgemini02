@@ -7,6 +7,7 @@
 <br>
 
 #### **Data**: 03/03/2022
+#### **Linguagem utilizada**: Python v^3.10
 #### **Realizado por:** Rodrigo Usuy
 <br>
 
