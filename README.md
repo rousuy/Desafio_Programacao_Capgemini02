@@ -1,5 +1,5 @@
-![CI-Status](https://github.com/rousuy/Desafio_Programacao_Capgemini02/actions/workflows/python-app.yml/badge.svg)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/rousuy/Desafio_Programacao_Capgemini02.git)
+
+![CI-Status](https://github.com/rousuy/Desafio_Programacao_Capgemini02/actions/workflows/python-app.yml/badge.svg)[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/rousuy/Desafio_Programacao_Capgemini02.git)
 ![APM](https://img.shields.io/apm/l/vim-mode?logo=License)
 
 <center><h1>Desafio_Programacao_Capgemini02</h1></center>
