@@ -5,43 +5,60 @@
 [![made-with-python3](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 <center><h1>Desafio_Programacao_Capgemini02</h1></center>
-<center><h2><p>Desafio recebido para Processo de Seleção para Acadêmia Capgemini</p><h2></center>
-<br>
-
-#### **Data**: 03/03/2022
-#### **Realizado por:** Rodrigo Usuy
+<center><h2><p>Challenge received for the Capgemini Academy Selection Process</p><h2></center>
 <br>
 
 
-### **Instalação**
+#### **Date**: 03/03/2022
+#### **Author:** Rodrigo Usuy
 
-Gerenciador de pacotes Poetry e ambiente virtual:
+<br>
+
+#### **Instructions**:
+* View the resolutions code: source/questions/
+* View code diagrams flowcharts: source/images/diagrams/ 
+* View the proposed questions: source/images/questions/ 
+* View the code tests: source/tests/ 
+
+#### **Tools**:
+* Language: Python version ^3
+* Flake8: Style guide according to pep8
+* Pytest: Code tests
+* CodeCov: Code coverage report
+* GitHub Actions(CI): automate code changes and test them in the pipeline before merge into main branch
+
+<br>
+
+### **Guide instalation:**
+
+Poetry package manager and virtual environment:
 ###### console:
 ```
 python -m pip install poetry==1.1.5 
 ``` 
 
 
-Para instalar pacotes e dependências do projeto:
+install packages and dependencies of project: 
 ###### console:
 ```
 poetry install
 ```
 
-Para rodar os testes :
+Run tests (if the virtual environment is enabled)
 ###### console:
 ```
-poetry run pytest # Caso não esteja com Ambiente virtual ativado
-
-# or
-
-pytest # Caso ambiente virtual (poetry shell) esteja ativado
+pytest 
 ```
+Run tests (if virtual environment is not activated)
+```
+poetry run pytest 
+```
+
 <br>
 
->**Agradecimentos**:<br> 
->Acadêmia Capgemini Brasil<br>
->
+**acknowledgment**:<br> 
+>Capgemini Academy Brazil<br>
+
 
 <center>
 Follow up:
