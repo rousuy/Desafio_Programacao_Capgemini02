@@ -26,4 +26,8 @@ jobs:
       run: poetry install --quiet
     - name: Lint with flake8
       run: poetry run flake8 -q
+    - name: Check Tests with Pytest
+      run: poetry run pytest --cov=questions
+    - name: Check coverage for tests
+      run: poetry run codecov
     
