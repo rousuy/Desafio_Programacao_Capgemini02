@@ -1,3 +1,5 @@
+# Question 3
+
 import six
 from math import sqrt, ceil, floor
 
@@ -15,21 +17,21 @@ def encrypt_message(message: str) -> print:
         print: the encrypted message of the array in transposed form
     """
     message = message.replace(' ', '')
-    string_list = list(message)
-    sqrt_text = sqrt(len(message))
-    area = sqrt_text * sqrt_text
+    message_list = list(message)
+    sqrt_message = sqrt(len(message))
+    area = sqrt_message * sqrt_message
 
     if area >= floor(area):
-        grid_number = ceil(sqrt_text)
+        grid_number = ceil(sqrt_message)
     else:
-        grid_number = floor(sqrt_text)
+        grid_number = floor(sqrt_message)
 
     grid = []
     for x in range(0, grid_number):
-        grid.append(string_list[:grid_number])
-        del string_list[:grid_number]
+        grid.append(message_list[:grid_number])
+        del message_list[:grid_number]
 
-    # library to resolve python 3 incompatibility to accept more than 2 lists in zip() format
+    # library six.moves to resolve python 3 incompatibility to accept more than 2 lists in zip() method format
     output = list(map(list, six.moves.zip_longest(*grid)))
 
     for i in output:
