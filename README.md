@@ -12,6 +12,8 @@
 #### **Realizado por:** Rodrigo Usuy
 <br>
 
+#### Linguagem utilizada:  **Python v.3^**
+<br>
 
 ### **Instalação**
 
