@@ -8,42 +8,55 @@
 <center><h2><p>Desafio recebido para Processo de Seleção para Acadêmia Capgemini</p><h2></center>
 <br>
 
-#### **Data**: 03/03/2022
-#### **Realizado por:** Rodrigo Usuy
+#### **Date**: 03/03/2022
+#### **Author:** Rodrigo Usuy
 <br>
 
-#### Linguagem utilizada:  **Python v.3^**
+#### **Instructions**:
+* View the resolutions code: source/questions/
+* View code diagrams flowcharts: source/images/diagrams/ 
+* View the proposed questions: source/images/questions/ 
+* View the code tests: source/tests/ 
+
+#### **Tools**:
+* Language: Python version ^3
+* Flake8: Style guide according to pep8
+* Pytest: Code tests
+* CodeCov: Code coverage report
+* GitHub Actions(CI): automate code changes and test them in the pipeline before merge into main branch
+
 <br>
 
-### **Instalação**
+### **Guide instalation:**
 
-Gerenciador de pacotes Poetry e ambiente virtual:
+Poetry package manager and virtual environment:
 ###### console:
 ```
 python -m pip install poetry==1.1.5 
 ``` 
 
 
-Para instalar pacotes e dependências do projeto:
+install packages and dependencies of project: 
 ###### console:
 ```
 poetry install
 ```
 
-Para rodar os testes :
+Run tests (if the virtual environment is enabled)
 ###### console:
 ```
-poetry run pytest # Caso não esteja com Ambiente virtual ativado
-
-# or
-
-pytest # Caso ambiente virtual (poetry shell) esteja ativado
+pytest 
 ```
+Run tests (if virtual environment is not activated)
+```
+poetry run pytest 
+```
+
 <br>
 
->**Agradecimentos**:<br> 
->Acadêmia Capgemini Brasil<br>
->
+**acknowledgment**:<br> 
+>Capgemini Academy Brazil<br>
+
 
 <center>
 Follow up:
@@ -52,5 +65,4 @@ Follow up:
 
 [<img src ="https://user-images.githubusercontent.com/76751870/153108542-62e0a78a-95f1-4935-ae89-6062186153c5.png">](https://github.comrousuy)
 [<img src ="https://user-images.githubusercontent.com/76751870/153108643-7c254391-b087-472e-a022-88c5c3d759be.png">](https://www.linkedin.com/in/rodrigo-usuy-280b95aa/)
-
 </center>
