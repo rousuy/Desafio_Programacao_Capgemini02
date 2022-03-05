@@ -29,7 +29,7 @@
 
 <br>
 
-### **Guide instalation:**
+### **Guide installation:**
 
 Poetry package manager and virtual environment:
 ###### console:
