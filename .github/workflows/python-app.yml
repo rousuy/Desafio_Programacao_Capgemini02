@@ -27,7 +27,7 @@ jobs:
     - name: Lint with flake8
       run: poetry run flake8 -q
     - name: Check Tests with Pytest
-      run: poetry run pytest --cov=questions
+      run: poetry run pytest --cov=./source/questions/
     - name: Check coverage for tests
       run: poetry run codecov
     
