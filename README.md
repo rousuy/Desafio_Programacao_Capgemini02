@@ -1,5 +1,6 @@
 
-![CI-Status](https://github.com/rousuy/Desafio_Programacao_Capgemini02/actions/workflows/python-app.yml/badge.svg)[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/rousuy/Desafio_Programacao_Capgemini02.git)
+![CI-Status](https://github.com/rousuy/Desafio_Programacao_Capgemini02/actions/workflows/python-app.yml/badge.svg)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/rousuy/Desafio_Programacao_Capgemini02.git)
 ![APM](https://img.shields.io/apm/l/vim-mode?logo=License)
 [![codecov](https://codecov.io/gh/rousuy/Desafio_Programacao_Capgemini02/branch/main/graph/badge.svg?token=4SLDSBG7MN)](https://codecov.io/gh/rousuy/Desafio_Programacao_Capgemini02)
 [![made-with-python3](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -56,7 +57,7 @@ poetry run pytest
 
 <br>
 
-**acknowledgment**:<br> 
+>**acknowledgment**:<br> 
 >Capgemini Academy Brazil<br>
 
 
